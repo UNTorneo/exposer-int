@@ -1,0 +1,25 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header />
+    <SOAP-ENV:Body>
+        <ns2:getVenuesResponse xmlns:ns2="http://spring.io/guides/gs-producing-web-service">
+            <ns2:venue>
+                <ns2:description>La casa de tu madre</ns2:description>
+                <ns2:id>1</ns2:id>
+                <ns2:isActive>false</ns2:isActive>
+                <ns2:location>Calle 144 #32-65</ns2:location>
+            </ns2:venue>
+            <ns2:venue>
+                <ns2:description>Nueva sede villa</ns2:description>
+                <ns2:id>3</ns2:id>
+                <ns2:isActive>false</ns2:isActive>
+                <ns2:location>En tu corazon bb</ns2:location>
+            </ns2:venue>
+            <ns2:venue>
+                <ns2:description>wefijwhefuihweuif</ns2:description>
+                <ns2:id>2</ns2:id>
+                <ns2:isActive>false</ns2:isActive>
+                <ns2:location>NUEVA LOCATION</ns2:location>
+            </ns2:venue>
+        </ns2:getVenuesResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
